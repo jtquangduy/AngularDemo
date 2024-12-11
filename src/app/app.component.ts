@@ -12,12 +12,12 @@ import { InvestmentResultsComponent } from './investment-results/investment-resu
 })
 export class AppComponent {
   resultsData?: {
-    year: Number;
-    interest: Number;
-    valueEndOfYear: Number;
-    annualInvestment: Number;
-    totalInterest: Number;
-    totalAmountInvested: Number;
+    year: number;
+    interest: number;
+    valueEndOfYear: number;
+    annualInvestment: number;
+    totalInterest: number;
+    totalAmountInvested: number;
   }[];
 
   calculateInvestmentResults(data: InvestmentInput) {
